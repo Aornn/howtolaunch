@@ -1,5 +1,5 @@
 # Comment lancer un noeud Ceramic ?
-## Si vous etes intéréssé par un docker je vous invite à aller dans le dossier docker_compose
+## Si vous etes intéréssé par un docker je vous invite à aller dans le dossier [docker_compose](https://github.com/Aornn/howtolaunch/tree/main/ceramic/docker_compose)
 
 Tutoriel en francais pour lancer un noeud pas à pas. Nous partirons du principe que vous etes sur linux ou ubuntu.
 L'interface de ligne de commande Ceramic offre un moyen simple de démarrer un nœud JS Ceramic dans un environnement Node.js local. Il s'agit d'un excellent moyen de commencer à développer avec Ceramic avant de passer à un nœud hébergé dans le cloud pour les cas d'utilisation en production.
