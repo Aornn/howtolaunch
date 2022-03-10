@@ -151,6 +151,7 @@ Pour le lancer rien de bien compliqué :
     docker-compose up --build --force-recreate --remove-orphans
 Si vous ne voyez pas d'erreur c'est que votre docker-compose s'est bien lancé !
 Et voila vous savez maintenant monter un noeud avec deux docker et avec un docker compose !
+Si vous voulez savoir commencer lancer ce docker compose depuis un heroku ou aws faites le moi savoir et je completerai ce document
 
 # Questions ?
 Si vous avez des questions ou des remarques ou suggestions n’hésitez pas à ouvrir une issue avec pour titre le model suivant :  *[nom_du_projet] votre question*
