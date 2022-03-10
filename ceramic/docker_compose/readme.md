@@ -1,7 +1,7 @@
 # Comment lancer un noeud Ceramic avec Docker ?
 
 Avant de commencer il est important de comprendre comment fonctionne Ceramic. <br>
-Il y a 2 dockers à lancer, le premier servira au serveur [IPFS](https://academy.bit2me.com/fr/qu%27est-ce-que-ipfs/)  le second quand à lui servira au noeud. Le noeud se connectera donc au serveur IPFS. Puis pour interagir avec votre noeuds il y a plusieurs solutions mais la solution recommandé est la suivante  : https://developers.ceramic.network/reference/core-clients/ceramic-http/ 
+Il y a 2 dockers à lancer, le premier servira au serveur [IPFS](https://academy.bit2me.com/fr/qu%27est-ce-que-ipfs/)  le second quand à lui servira au noeud. Le noeud se connectera donc au serveur IPFS. Puis pour interagir avec votre noeuds il y a plusieurs solutions mais la solution recommandé est la suivante  : <br> https://developers.ceramic.network/reference/core-clients/ceramic-http/ <br>
 Nous partirons du principe que docker est installé sinon voici un tuto : https://docs.docker.com/get-docker/
 
 # Sans docker compose
@@ -156,4 +156,4 @@ Si vous voulez savoir commencer lancer ce docker compose depuis un heroku ou aws
 # Questions ?
 Si vous avez des questions ou des remarques ou suggestions n’hésitez pas à ouvrir une issue avec pour titre le model suivant :  *[nom_du_projet] votre question*
 Et d'ajouter le label *question* sur votre issue.
-Vous pouvez aussi me contacter sur twitter à l'adresse suivante @Ronan_Dtb
+Vous pouvez aussi me contacter sur twitter à l'adresse suivante @Ronan_Dtb ou sur le discord de Ceramic : kiki#5886
