@@ -20,9 +20,9 @@ services:
     container_name: js-ceramic
     image: ceramicnetwork/js-ceramic:latest
     volumes:
-      - /home/ronanq/Documents/alexar/conf.json:/root/.ceramic/daemon.config.json
-      - /home/ronanq/Documents/alexar/logs:/root/.ceramic/logs
-      - /home/ronanq/Documents/alexar/statestore:/root/.ceramic/statestore
+      - chemin_du_fichier_de_conf.json:/root/.ceramic/daemon.config.json
+      - chemin_des_logs:/root/.ceramic/logs
+      - chemin_du_statestore:/root/.ceramic/statestore
     ports:
       - "7007:7007"
     networks:
