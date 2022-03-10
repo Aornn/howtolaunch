@@ -1,0 +1,26 @@
+{
+    "anchor": {
+        "ethereum-rpc-url": "https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+    },
+    "http-api": {
+        "cors-allowed-origins": [
+            ".*"
+        ]
+    },
+    "ipfs": {
+        "mode": "remote",
+        "host": "http://ipfs-daemon:5011"
+    },
+    "logger": {
+        "log-level": 0,
+        "log-to-files": true
+    },
+    "network": {
+        "name": "testnet-clay"
+    },
+    "node": {},
+    "state-store": {
+        "mode": "fs",
+        "local-directory": "/root/.ceramic/statestore"
+    }
+}
