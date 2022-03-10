@@ -26,13 +26,10 @@ On n'oublie pas de récupérer son adresse IP avec la commande  :
     --name js-ceramic \
     ceramicnetwork/js-ceramic:latest
   Ici c'est un peu compliqué on précise 3 volumes que l'on doit monter. Le premier est celui du fichier de configuration. C'est dedans que l'on devra définir toutes les variables nécessaire pour que notre nœud puisse tourner. Et les deux autres ils s'agit juste de chemin ou seront stocké des logs. <br>
-  Petite précision concerant l'url rpc de ethereum, il doit s'agir d'un noeud que vous possédez.
 Voici un fichier de conf :
 
     {
-        "anchor": {
-            "ethereum-rpc-url": "https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
-        },
+        "anchor": {},
         "http-api": {
             "cors-allowed-origins": [
                 ".*"
