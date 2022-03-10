@@ -4,7 +4,7 @@ services:
     container_name: ipfs-daemon
     image: ceramicnetwork/ipfs-daemon:latest
     healthcheck:
-      test: [ "CMD", "curl", "http://0.0.0.0:5011" ]
+      test: [ "CMD", "curl", "-f", "http://0.0.0.0:8011" ]
       timeout: 20s
       interval: 10s
       retries: 10
@@ -13,15 +13,16 @@ services:
       - "5011:5011"
     environment:
       - CERAMIC_NETWORK=testnet-clay
+      - HEALTHCHECK_ENABLED=true
     networks:
       - internal
   js-ceramic:
     container_name: js-ceramic
     image: ceramicnetwork/js-ceramic:latest
     volumes:
-      - chemin_vers_fichier_conf.json:/root/.ceramic/daemon.config.json
-      - chemin_vers_logs_logs:/root/.ceramic/logs
-      - chemin_vers_statestore:/root/.ceramic/statestore
+      - /home/ronanq/Documents/alexar/conf.json:/root/.ceramic/daemon.config.json
+      - /home/ronanq/Documents/alexar/logs:/root/.ceramic/logs
+      - /home/ronanq/Documents/alexar/statestore:/root/.ceramic/statestore
     ports:
       - "7007:7007"
     networks:
