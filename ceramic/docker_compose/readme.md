@@ -26,6 +26,7 @@ On n'oublie pas de récupérer son adresse IP avec la commande  :
     --name js-ceramic \
     ceramicnetwork/js-ceramic:latest
   Ici c'est un peu compliqué on précise 3 volumes que l'on doit monter. Le premier est celui du fichier de configuration. C'est dedans que l'on devra définir toutes les variables nécessaire pour que notre nœud puisse tourner. Et les deux autres ils s'agit juste de chemin ou seront stocké des logs. <br>
+ Une chose importante à noter est quand dans la partie *anchor* il est possible de spécifier une endpoint RPC ethereum avec la balise *ethereum-rpc-url*. Si vous comptez deployer votre noeud sur un réseau de production, il faudra que vous herbergiez vous meme un noeud ethereum ou bien faire appel à un service payant sinon vous serez bridé sur votre nombre d'appel.<br>
 Voici un fichier de conf :
 
     {
